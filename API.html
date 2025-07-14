@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Weather Dashboard</title>
+  <link rel="stylesheet" href="APL.CSS">
+</head>
+<body>
+  <div class="container">
+    <h1>🌦 Smart Weather Dashboard</h1>
+    <input type="text" id="cityInput" placeholder="Enter city" />
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="weatherBox" class="weather-box fade-in">
+      <!-- Weather info appears here -->
+    </div>
+    <canvas id="tempChart"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="APL.js"></script>
+</body>
+</html>
